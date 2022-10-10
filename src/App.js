@@ -1,16 +1,26 @@
 import React from "react";
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <div>
-          <h1>React Weather App</h1>
+      <h1>
+             React Weather App
+             </h1>
+
+        <footer>
+              This project was coded by Jeanne C. Edwards and is {" "}
+            <a
+            href="https://github.com/jcedwards48/react-week5
+            target="_blank">
+            
+             open-sourced on Github
+            </a>
+        </footer>
+        
         </div>
-      </header>
-    </div>
+          
   );
 }
 
-export default App;
+
